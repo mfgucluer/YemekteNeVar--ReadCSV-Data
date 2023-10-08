@@ -13,6 +13,7 @@
 		BCD980892ACFFA5F00725011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD980872ACFFA5F00725011 /* Main.storyboard */; };
 		BCD9808B2ACFFA6000725011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD9808A2ACFFA6000725011 /* Assets.xcassets */; };
 		BCD9808E2ACFFA6000725011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD9808C2ACFFA6000725011 /* LaunchScreen.storyboard */; };
+		BCD980972AD2594600725011 /* yemekcsv.csv in Resources */ = {isa = PBXBuildFile; fileRef = BCD980962AD2594500725011 /* yemekcsv.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BCD9808A2ACFFA6000725011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCD9808D2ACFFA6000725011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCD9808F2ACFFA6000725011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD980962AD2594500725011 /* yemekcsv.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yemekcsv.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BCD9808A2ACFFA6000725011 /* Assets.xcassets */,
 				BCD9808C2ACFFA6000725011 /* LaunchScreen.storyboard */,
 				BCD9808F2ACFFA6000725011 /* Info.plist */,
+				BCD980962AD2594500725011 /* yemekcsv.csv */,
 			);
 			path = YemekteNeVar;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD9808E2ACFFA6000725011 /* LaunchScreen.storyboard in Resources */,
+				BCD980972AD2594600725011 /* yemekcsv.csv in Resources */,
 				BCD9808B2ACFFA6000725011 /* Assets.xcassets in Resources */,
 				BCD980892ACFFA5F00725011 /* Main.storyboard in Resources */,
 			);
