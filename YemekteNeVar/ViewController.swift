@@ -2,12 +2,7 @@ import UIKit
 import Foundation
 
 
-var wd = -1 //Weekday helper number
-var mn = 4 //Menu number
-
-var days = ["Monday","Tuesday","Wednesday","Thursday","Friday"]
-
-
+var mn = 4
 
 class ViewController: UIViewController {
     
@@ -26,15 +21,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.black
         
-        print(getLastDayofMonth())
-        //mn = fixBug1()
-        mn = 13
+        mn = 10
         AllMenuLabel(mn: mn)
     }
     
     
     func fixBug1() -> Int {
-        //Bugunun tarihini asagidaki bicimde bulma. Bugun tarihinin kacinci satirda oldugunu bulup AllMenuLabel fonksiyonuna yukarida gonderiyoruz...
+        //Indicate today Date
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "d/M/yy"
@@ -52,7 +45,6 @@ class ViewController: UIViewController {
             }
         }
         
-        print("*****************\(count)****************")
         return count
     }
     
@@ -68,8 +60,6 @@ class ViewController: UIViewController {
     
     
     func AllMenuLabel(mn: Int){
-        
-        
         
         if let menuEntries = readCSVFile(fileName: "yemekcsv", fileType: "csv") {
             
@@ -183,15 +173,12 @@ class ViewController: UIViewController {
         if let date = dateFormatter.date(from: dateString) {
             // Calendar ile gün adını bulma
             let calendar = Calendar.current
-            //let dayOfWeek = calendar.component(.weekday, from: date)
-            // DateFormatter ile gün adını yazdırma
             let dayNameFormatter = DateFormatter()
             dayNameFormatter.dateFormat = "EEEE"
             let dayName = dayNameFormatter.string(from: date)
             
             return dayName
             
-            //print("\(dateString) tarihi \(dayName) günüdür. (Haftanın \(dayOfWeek). günü)")
         } else {
              return "Geçersiz tarih formatı"
         }

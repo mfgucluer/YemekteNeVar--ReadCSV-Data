@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC32AAB52AD714BF0068704A /* yemekcsv.csv in Resources */ = {isa = PBXBuildFile; fileRef = BC32AAB42AD714BF0068704A /* yemekcsv.csv */; };
 		BCD980822ACFFA5F00725011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD980812ACFFA5F00725011 /* AppDelegate.swift */; };
 		BCD980842ACFFA5F00725011 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD980832ACFFA5F00725011 /* SceneDelegate.swift */; };
 		BCD980862ACFFA5F00725011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD980852ACFFA5F00725011 /* ViewController.swift */; };
 		BCD980892ACFFA5F00725011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD980872ACFFA5F00725011 /* Main.storyboard */; };
 		BCD9808B2ACFFA6000725011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD9808A2ACFFA6000725011 /* Assets.xcassets */; };
 		BCD9808E2ACFFA6000725011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD9808C2ACFFA6000725011 /* LaunchScreen.storyboard */; };
-		BCD980992AD54DC900725011 /* yemekcsv.csv in Resources */ = {isa = PBXBuildFile; fileRef = BCD980982AD54DC900725011 /* yemekcsv.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC32AAB42AD714BF0068704A /* yemekcsv.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yemekcsv.csv; sourceTree = "<group>"; };
 		BCD9807E2ACFFA5F00725011 /* YemekteNeVar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YemekteNeVar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD980812ACFFA5F00725011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCD980832ACFFA5F00725011 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		BCD9808A2ACFFA6000725011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCD9808D2ACFFA6000725011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCD9808F2ACFFA6000725011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCD980982AD54DC900725011 /* yemekcsv.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yemekcsv.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				BCD9808A2ACFFA6000725011 /* Assets.xcassets */,
 				BCD9808C2ACFFA6000725011 /* LaunchScreen.storyboard */,
 				BCD9808F2ACFFA6000725011 /* Info.plist */,
-				BCD980982AD54DC900725011 /* yemekcsv.csv */,
+				BC32AAB42AD714BF0068704A /* yemekcsv.csv */,
 			);
 			path = YemekteNeVar;
 			sourceTree = "<group>";
@@ -129,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD9808E2ACFFA6000725011 /* LaunchScreen.storyboard in Resources */,
-				BCD980992AD54DC900725011 /* yemekcsv.csv in Resources */,
+				BC32AAB52AD714BF0068704A /* yemekcsv.csv in Resources */,
 				BCD9808B2ACFFA6000725011 /* Assets.xcassets in Resources */,
 				BCD980892ACFFA5F00725011 /* Main.storyboard in Resources */,
 			);
