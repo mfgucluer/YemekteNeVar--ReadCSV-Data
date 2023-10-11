@@ -5,7 +5,7 @@ In this project, I tried to reflect the Food Menu data I took from the CVS file 
 
 What I learned with this project:
 
-1- How to get data from CVS file with Swift UIkit
+1- How to get data from CVS file with Swift UIkit                                                                                                                                                                                                          
 2- How to write a user-friendly application for the user by using and processing the captured data
 
 
