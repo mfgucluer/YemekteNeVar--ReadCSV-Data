@@ -8,11 +8,11 @@ var mn = 4 //Menu number
 var days = ["Monday","Tuesday","Wednesday","Thursday","Friday"]
 
 
+
 class ViewController: UIViewController {
     
     
     @IBOutlet weak var dateLabel: UILabel!
-    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var food1: UILabel!
     @IBOutlet weak var food2: UILabel!
     @IBOutlet weak var food3: UILabel!
@@ -24,14 +24,18 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageView.image = UIImage(named: "menu.jpeg")
-        mn = fixBug1()
+        self.view.backgroundColor = UIColor.black
+        
+        print(getLastDayofMonth())
+        //mn = fixBug1()
+        mn = 13
         AllMenuLabel(mn: mn)
     }
     
     
     func fixBug1() -> Int {
         //Bugunun tarihini asagidaki bicimde bulma. Bugun tarihinin kacinci satirda oldugunu bulup AllMenuLabel fonksiyonuna yukarida gonderiyoruz...
+        
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "d/M/yy"
         let currentDate = Date()
@@ -51,6 +55,7 @@ class ViewController: UIViewController {
         print("*****************\(count)****************")
         return count
     }
+    
 
     func alertFun(title: String, message:String){
         
@@ -65,21 +70,52 @@ class ViewController: UIViewController {
     func AllMenuLabel(mn: Int){
         
         
+        
         if let menuEntries = readCSVFile(fileName: "yemekcsv", fileType: "csv") {
-        
-            if(menuEntries[mn].totalCalories != "" ){
-            dayLabel.text = changeDate(dateString: menuEntries[mn].date)
-            dateLabel.text =  menuEntries[mn].date
-            food1.text = menuEntries[mn].soup
-            food2.text = menuEntries[mn].mainCourse
-            food3.text = menuEntries[mn].sideDish
-            food4.text = menuEntries[mn].dessert
-            calorie.text = String(menuEntries[mn].totalCalories)}
-            else{
-                alertFun(title: menuEntries[mn].soup ?? "Yemekhane kapali", message: "Yemekhane Kapali")
-            }
-        
             
+            let temp = mn
+            if(menuEntries[temp].soup != "" && menuEntries[temp].dessert == "" ){
+                alertFun(title: menuEntries[temp].soup , message: "Resmi Tatil - Yemekhane Kapalı")
+                
+                     dayLabel.text = changeDate(dateString: menuEntries[mn].date)
+                     dateLabel.text =  menuEntries[mn].date
+                     food1.text = ""
+                     food2.text = ""
+                     food3.text = ""
+                     food4.text = ""
+                     calorie.text = ""
+                 
+                
+            }
+            
+            
+            if(menuEntries[temp].soup != "" && menuEntries[temp].dessert == "" ){
+                alertFun(title: menuEntries[temp].soup , message: "Resmi Tatil - Yemekhane Kapalı")
+                
+                     dayLabel.text = changeDate(dateString: menuEntries[mn].date)
+                     dateLabel.text =  menuEntries[mn].date
+                     food1.text = ""
+                     food2.text = ""
+                     food3.text = ""
+                     food4.text = ""
+                     calorie.text = ""
+                 
+                
+            }
+            
+            
+           else {
+           
+                    dayLabel.text = changeDate(dateString: menuEntries[mn].date)
+                    dateLabel.text =  menuEntries[mn].date
+                    food1.text = menuEntries[mn].soup
+                    food2.text = menuEntries[mn].mainCourse
+                    food3.text = menuEntries[mn].sideDish
+                    food4.text = menuEntries[mn].dessert
+                    calorie.text = String(menuEntries[mn].totalCalories)
+                
+               
+           }
         } else {
             
             print("No menu entries found.")
@@ -87,15 +123,22 @@ class ViewController: UIViewController {
     }
     
     
+    func getLastDayofMonth() -> Int
+    {
+        let suAnkiTarih = Date()
+        let takvim = Calendar.current
+        guard let sonGun = takvim.range(of: .day, in: .month, for: suAnkiTarih)?.count else { return 0 }
+        return sonGun
+    }
+    
+    
+    
     @IBAction func nextClicked(_ sender: Any) {
         
+        
         let menuEntries = readCSVFile(fileName: "yemekcsv", fileType: "csv")
-        dateLabel.text =  menuEntries?[mn].date
         
-        
-        if(menuEntries?.last?.date != dateLabel.text)
-        {
-        
+        if(String(menuEntries![mn].date.prefix(2)) != String(getLastDayofMonth())){
             if(dayLabel.text != "Friday"){
                 mn += 1
                 AllMenuLabel(mn: mn)
@@ -103,8 +146,8 @@ class ViewController: UIViewController {
                 else{
                 mn += 2
                 AllMenuLabel(mn: mn)
-            }
-                }
+            }}
+                
         
         }
     
@@ -112,22 +155,23 @@ class ViewController: UIViewController {
         
         let menuEntries = readCSVFile(fileName: "yemekcsv", fileType: "csv")
         
-     
+        
         
         if(menuEntries?[mn-1].totalCalories.hasPrefix("Enerji") == false){
-        if(dayLabel.text != "Monday"){
-            
-            mn -= 1
-            AllMenuLabel(mn: mn)
-        }
-            else{
-            
+            if(dayLabel.text != "Monday"){
                 
-            mn -= 2
-            AllMenuLabel(mn: mn)
-        }
+                mn -= 1
+                AllMenuLabel(mn: mn)
             }
+            else{
+                
+                
+                mn -= 2
+                AllMenuLabel(mn: mn)
+            }
+        }
     }
+    
     
     
     func changeDate(dateString: String) -> String{

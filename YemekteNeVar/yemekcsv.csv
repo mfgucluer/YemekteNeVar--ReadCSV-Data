@@ -1,30 +1,56 @@
-        ANKARA ÜNİVERSİTESİ     ;;;;;;;;
- EKİM 2023 YEMEK MENÜSÜ ;;;;;;;;
-;;;;;;;;
-;;;;;Enerji(kkal)*;;;
-2/10/23;TARHANA ÇORBA (168 kkal);ETLİ NOHUT (405 kkal);MISIRLI PİRİNÇ PİLAVI (352 kkal);TULUMBA TATLISI (425 kkal);1350 KKAL;;;
-3/10/23;KIRMIZI MERCİMEK ÇORBA (162 kkal);ÇİFTLİK KÖFTE (447 kkal);SOSLU MAKARNA (313 kkal);AYRAN (64 kkal);986 KKAL;;;
-4/10/23;YOĞURT ÇORBA (149 kkal);TAS KEBAP (365 kkal);BULGUR PİLAVI (299 kkal);MEYVE (80 kkal);893 KKAL;;;
-5/10/23;FESLEĞENLİ DOMATES ÇORBA (219 kkal);ETLİ BEZELYE (419 kkal);ŞEHRİYELİ PİRİNÇ PİLAVI (304 kkal);CEVİZLİ KADAYIF (340 kkal);1282 KKAL;;;
-6/10/23;EZOGELİN ÇORBA (162 kkal);KÖYLÜ USULÜ TAVUK (510 kkal);SOSLU SPAGETTİ (313 kkal);YOĞURT (158 kkal);1143 KKAL;;;
-;;;;;;;;
-9/10/23;KIRMIZI MERCİMEK ÇORBA (162 kkal);İZMİR KÖFTE (371 kkal);BULGUR PİLAVI (299 kkal);CACIK (94 kkal);926 KKAL;;;
-10/10/23;KÖYLÜM ÇORBA (160 kkal);ÇİN USULÜ TAVUK (331 kkal);YOĞURTLU MAKARNA (429 kkal);MEYVE (80 kkal);1000 KKAL;;;
-11/10/23;MISIR ÇORBA (150 kkal);ETLİ MEVSİM TÜRLÜ (488 kkal);PATATESLİ KOL BÖREĞİ (494 kkal);KOKTEYL HOŞAF (184 kkal);1316 KKAL;;;
-12/10/23;YEŞİL MERCİMEK ÇORBA (198 kkal);ÇOBAN KAVURMA (434 kkal);SADE PİRİNÇ PİLAVI (360 kkal);AYRAN (64 kkal);1056 KKAL;;;
-13/10/23;ŞEHRİYE ÇORBA (114 kkal);MANTARLI TAVUK KAVURMA (450 kkal);KÖRİLİ MAKARNA (313 kkal);TRİLEÇE (244 kkal);1121 KKAL;;;
-;;;;;;;;
-16/10/23;SEBZE ÇORBA (148 kkal);ETLİ KURU FASÜLYE (442 kkal);SADE PİRİNÇ PİLAVI (360 kkal);AYRAN (64 kkal);1014 KKAL;;  ;
-17/10/23;ŞEFİN ÇORBA (148 kkal);KIYMALI FIRIN PATATES (350 kkal);SOSLU MAKARNA (313 kkal);TRİLEÇE (244 kkal);1055 KKAL;;;
-18/10/23;ŞEHRİYE ÇORBA (114 kkal);PATLICAN KEBAP (700 kkal);BULGUR PİLAVI (299 kkal);YOĞURT (158 kkal);1271 KKAL;;;
-19/10/23;DOMATES ÇORBA (242 kkal);TAVUK TANDIR (470 kkal);ŞEHRİYELİ PİRİNÇ PİLAVI (304 kkal);EKLER PASTA (359 kkal);1375 KKAL;;  ;  
-20/10/23;KIRMIZI MERCİMEK ÇORBA (162 kkal);EKŞİLİ KÖFTE (448 kkal);SOSLU SPAGETTİ (313 kkal);MEYVE (80 kkal);1003 KKAL;;;
-;;;;;;;;
-23/10/23;KÖYLÜM ÇORBA (160 kkal);ET HAŞLAMA (495 kkal);BULGUR PİLAVI (299 kkal);MENEKŞE SALATA (117 kkal);1071 KKAL;;;
-24/10/23;MISIR ÇORBA (150 kkal);ETLİ NOHUT (405 kkal);ŞEHRİYELİ PİRİNÇ PİLAVI (304 kkal);ŞAM TATLISI (440 kkal);1299 KKAL;;;
-25/10/23;EZOGELİN ÇORBA (162 kkal);IZGARA TAVUK PİRZOLA /ELMA DİLİM PATATES (485 kkal);SU BÖREĞİ (412 kkal);MEYVE (80 kkal);1139 KKAL;;;
-26/10/23;ŞEFİN ÇORBA (148 kkal);İSVEÇ KÖFTE/SEBZE BUKETİ (362 kkal);NOHUTLU PİRİNÇ PİLAVI (382 kkal);AYRAN (64 kkal);956 KKAL;;;
-27/10/23;YEŞİL MERCİMEK ÇORBA (198 kkal);KÖRİ SOSLU TAVUK (437 kkal);SOSLU MAKARNA (313 kkal);TRİLEÇE (244 kkal);1192 KKAL;;;
-;;;;;;;;
-30/10/23;ALACA ÇORBA (160 kkal);PATLICAN MUSAKKA (613 kkal);SADE PİRİNÇ PİLAVI (360 kkal);CACIK (94 kkal);1227 KKAL;;;
-31/10/23;ŞEFİN ÇORBA (148 kkal);SOSLU YOĞURTLU IZGARA KÖFTE (452 kkal);ÖZBEK PİLAVI (462 kkal);FINDIKLI KEŞKÜL (358 kkal);1420 KKAL;;;
+﻿        ANKARA ÜNİVERSİTESİ     ;;;;;
+   MAYIS 2023 YEMEK MENÜSÜ ;;;;;
+;;;;;
+;;;;;Enerji(kkal)*
+#VALUE!;1 MAYIS İŞÇİ VE EMEKÇİLER BAYRAMI;;;;
+2/5/23;ALACA ÇORBA (160 kkal);ORMAN KEBAP (692 kkal);PENNE MAKARNA (313 kkal);HAYDARİ (181 kkal);1346 KKAL
+3/5/23;KIRMIZI MERCİMEK ÇORBA (162 kkal);TAVUKLU BEYKOZ KEBAP (414 kkal);MISIRLI PİRİNÇ PİLAVI (352 kkal);TRİLEÇE (244 kkal);1172 KKAL
+4/5/23;KÖYLÜM ÇORBA (160 kkal);SAHAN KÖFTE (387 kkal);BULGUR PİLAVI (299 kkal);AYRAN (64 kkal);910 KKAL
+5/5/23;ŞEFİN ÇORBA (148 kkal);SOSLU SEBZELİ TAVUK (470 kkal);YOĞURTLU MAKARNA (429 kkal);MEYVE (80 kkal);1127 KKAL
+;;;;;
+8/5/23;DOMATES ÇORBA (242 kkal);ETLİ KURU FASÜLYE (442 kkal);SADE PİRİNÇ PİLAVI/TURŞU (395 kkal);FINDIKLI KEŞKÜL (358 kkal);1437 KKAL
+9/5/23;KIRMIZI MERCİMEK ÇORBA (162 kkal);KADINBUDU KÖFTE/ELMA DİLİM PATATES (631 kkal);SOSLU SPAGETTİ (313 kkal);YOĞURT (158 kkal);1264 KKAL
+10/5/23;TOYGA ÇORBA (256 kkal);BELEN TAVA (744 kkal);ŞEFİN PİLAVI (302 kkal);MEYVE (80 kkal);1391 KKAL
+11/5/23;TARHANA ÇORBA (168 kkal);PATLICAN MUSAKKA (613 kkal);ŞEHRİYELİ PİRİNÇ PİLAVI (304 kkal);CACIK (94 kkal);1179 KKAL
+12/5/23;EZOGELİN ÇORBA (162 kkal);TAVUK SOTE (505 kkal);ISPANAKLI KOL BÖREĞİ (333 kkal);KOKTEYL HOŞAF (184 kkal);1184 KKAL
+;;;;;
+15/5/23;MAHLUTA ÇORBA (117 kkal);ÇÖKERTME KEBAP (639 kkal);KUSKUS SALATA (370 kkal);MEYVE (80 kkal);1206 KKAL
+16/5/23;YEŞİL MERCİMEK ÇORBA (198 kkal);PİLAV ÜSTÜ TAVUK DÖNER (494 kkal);SOSLU KARIŞIK KIZARTMA (428 kkal);AYRAN (64 kkal);1184 KKAL
+17/5/23;ŞEHRİYE ÇORBA (114 kkal);ETLİ MEVSİM TÜRLÜ (488 kkal);SADE PİRİNÇ PİLAVI (360 kkal);EKLER PASTA (359 kkal);1321 KKAL
+18/5/23;FESLEĞENLİ DOMATES ÇORBA (219 kkal);TERBİYELİ KÖFTE (430 kkal);SOSLU MAKARNA (313 kkal);MEVSİM SALATA (84 kkal);1046 KKAL
+19/5/23;19 MAYIS ATATÜRK'Ü ANMA GENÇLİK VE SPOR BAYRAMI;;;;
+;;;;;
+22/5/23;SEBZE ÇORBA (148 kkal);ETLİ NOHUT (405 kkal);SADE PİRİNÇ PİLAVI/TURŞU (395 kkal);YOĞURT (158 kkal);1106 KKAL
+23/5/23;EZOGELİN ÇORBA (162 kkal);BARBEKÜ SOSLU TAVUK (474 kkal);SU BÖREĞİ (412 kkal);VİŞNE KOMPOSTO (185 kkal);1233 KKAL
+24/5/23;ALACA ÇORBA (160 kkal);İSLİM KÖFTE (420 kkal);SADE PİRİNÇ PİLAVI (360 kkal);CACIK (94 kkal);1034 KKAL
+25/5/23;KIRMIZI MERCİMEK ÇORBA (162 kkal);ÇİFTLİK KEBAP (416 kkal);BULGUR PİLAVI (299 kkal);MEYVE (80 kkal);957 KKAL
+26/5/23;ŞEFİN ÇORBA (148 kkal);TAVUK ÇÖP ŞİŞ (478 kkal);SEBZELİ MAKARNA (355 kkal);TRİLEÇE (244 kkal);1225 KKAL
+;;;;;
+29/5/23;KÖYLÜM ÇORBA (160 kkal);ÇOBAN KAVURMA (411 kkal);ŞEFİN PİLAVI (302 kkal);YOĞURT (158 kkal);1031 KKAL
+30/5/23;MISIR ÇORBA (150 kkal);ETLİ KURU FASÜLYE (442 kkal);SADE PİRİNÇ PİLAVI/TURŞU (395 kkal);MEVSİM SALATA (84 kkal);1071 KKAL
+31/5/23;KIRMIZI MERCİMEK ÇORBA (162 kkal);ÇİN USULÜ TAVUK (331 kkal);KÖRİ SOSLU MAKARNA (313 kkal);BAKLAVA (629 kkal);1435 KKAL
+;;;;;
+*Menü enerjilerinin hesaplanmasında 'BESİN Billeşim Cetveli' temel alınmıştır.;;; ;;
+*Menü enerji (kkal) değerleri yaklaşık değerlerdir ve bilgilendirme amaçlı yazılmıştır.;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+ANKARA ÜNİVERSİTESİ;;;;;
+ SAĞLIK, KÜLTÜR VE SPOR DAİRE BAŞKANLIĞI;;;NAME KURUMSAL YEMEK;;
+DİYETİSYENLERİ;;;DİYETİSYENLERİ;;
+;;;;;
+;;;;;
+ENES KOÇAK                            FERDANE GÜL KONMAZ;;;                                                            EFİLİ KIRGIN                        ;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;Doküman Kodu: P09-F10                                          ;    Yayın Trh: 04.01.2016 ;Rev. No/Tarih: 00/-;Sayfa No: 1/1;
+;;;;;
+;;;;;
+;;;;;
